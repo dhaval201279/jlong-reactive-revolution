@@ -1,0 +1,2 @@
+Source code Josh Long's [talk](https://youtu.be/x53FzaHHjLk) [Reactive](https://www.reactive-streams.org/) implementation 
+using [Reactor](https://projectreactor.io/) and [R2DBC](https://github.com/r2dbc)
