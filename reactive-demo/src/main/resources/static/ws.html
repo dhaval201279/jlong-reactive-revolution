@@ -1,0 +1,18 @@
+<html>
+<head><title> Hello world!</title></head>
+<body>
+<script>
+    window.addEventListener('load', function (e) {
+        var ws = new WebSocket('ws://localhost:8080/ws/greetings')
+        ws.addEventListener('open', function () {
+            var name = window.prompt('what name do you want to greet?')
+            ws.send(name)
+        });
+        ws.addEventListener('message', function (msg) {
+            console.log('new greeting: ' + msg.data)
+        });
+
+    })
+</script>
+</body>
+</html>
