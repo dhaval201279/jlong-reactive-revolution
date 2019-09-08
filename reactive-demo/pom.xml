@@ -78,6 +78,12 @@
 			<version>0.0.1.BUILD-SNAPSHOT</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
