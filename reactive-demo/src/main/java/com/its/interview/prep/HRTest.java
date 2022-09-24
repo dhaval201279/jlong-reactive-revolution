@@ -3,6 +3,10 @@ package com.its.interview.prep;
 import java.util.ArrayList;
 import java.util.List;
 
+// ==========================================================
+// These comments will create merge conflicts
+// And thereby will have to be resolved
+// ==========================================================
 public class HRTest {
 
     public static void main(String [] args) {
