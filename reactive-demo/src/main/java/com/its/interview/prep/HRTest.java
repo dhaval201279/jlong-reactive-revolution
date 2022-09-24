@@ -33,6 +33,11 @@ public class HRTest {
 
     }
 
+    /**
+     * Checks whether list contains given no
+     * if it exist, return YES
+     * else return NO
+     */
     static String findNumber(List<Integer> arr, int k) {
         if (arr.contains(k)) {
             return "YES";
