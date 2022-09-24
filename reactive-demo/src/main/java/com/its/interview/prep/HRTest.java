@@ -9,6 +9,11 @@ import java.util.List;
 // ==========================================================
 public class HRTest {
 
+    /**
+     * New method level comments
+     * done  directly into Main
+     * @param args
+     */
     public static void main(String [] args) {
         List<Integer> integerList = new ArrayList<Integer>();
         integerList.add(1);
