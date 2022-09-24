@@ -7,6 +7,11 @@ import java.util.List;
 // These comments will create merge conflicts
 // And thereby will have to be resolved
 // ==========================================================
+/**
+ * This is just to test
+ *
+ * Hence it wont have any valuable comments
+ * */
 public class HRTest {
 
     /**
@@ -28,6 +33,11 @@ public class HRTest {
 
     }
 
+    /**
+     * Checks whether list contains given no
+     * if it exist, return YES
+     * else return NO
+     */
     static String findNumber(List<Integer> arr, int k) {
         if (arr.contains(k)) {
             return "YES";
